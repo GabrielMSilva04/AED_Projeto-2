@@ -1,0 +1,147 @@
+---
+Digraph
+Max Out-Degree = 2
+Vertices =  7 | Edges =  9
+---
+FILE: GRAFOS_ORIENTADOS/DAG_1.txt
+SORT: TopoSortV1
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000009	       0.000005	             29	             18	             38
+RESULT: Topological Sorting - Vertex indices:
+0 6 1 2 5 3 4 
+--------
+FILE: GRAFOS_ORIENTADOS/DAG_1.txt
+SORT: TopoSortV2
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000002	       0.000001	             57	             34	             44
+RESULT: Topological Sorting - Vertex indices:
+0 6 1 2 5 3 4 
+--------
+FILE: GRAFOS_ORIENTADOS/DAG_1.txt
+SORT: TopoSortV3
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000003	       0.000002	             16	             27	             23
+RESULT: Topological Sorting - Vertex indices:
+0 6 1 2 5 3 4 
+--------
+
+---
+Digraph
+Max Out-Degree = 3
+Vertices =  7 | Edges = 11
+---
+FILE: GRAFOS_ORIENTADOS/DAG_3.txt
+SORT: TopoSortV1
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000008	       0.000004	             29	             18	             40
+RESULT: Topological Sorting - Vertex indices:
+0 1 6 2 5 4 3 
+--------
+FILE: GRAFOS_ORIENTADOS/DAG_3.txt
+SORT: TopoSortV2
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000002	       0.000001	             57	             36	             46
+RESULT: Topological Sorting - Vertex indices:
+0 1 6 2 5 4 3 
+--------
+FILE: GRAFOS_ORIENTADOS/DAG_3.txt
+SORT: TopoSortV3
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000002	       0.000001	             18	             29	             25
+RESULT: Topological Sorting - Vertex indices:
+0 1 6 2 5 4 3 
+--------
+
+---
+Digraph
+Max Out-Degree = 3
+Vertices =  7 | Edges = 12
+---
+FILE: GRAFOS_ORIENTADOS/DAG_2.txt
+SORT: TopoSortV1
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000009	       0.000004	             29	             18	             41
+RESULT: Topological Sorting - Vertex indices:
+0 1 4 3 2 6 5 
+--------
+FILE: GRAFOS_ORIENTADOS/DAG_2.txt
+SORT: TopoSortV2
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000002	       0.000001	             57	             37	             47
+RESULT: Topological Sorting - Vertex indices:
+0 1 4 3 2 6 5 
+--------
+FILE: GRAFOS_ORIENTADOS/DAG_2.txt
+SORT: TopoSortV3
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000003	       0.000001	             19	             30	             26
+RESULT: Topological Sorting - Vertex indices:
+0 1 4 3 2 6 5 
+--------
+
+---
+Digraph
+Max Out-Degree = 3
+Vertices = 13 | Edges = 15
+ 0 ->    1    5    6
+ 1 ->
+ 2 ->    0    3
+ 3 ->    5
+ 4 ->
+ 5 ->    4
+ 6 ->    4    9
+ 7 ->    6
+ 8 ->    7
+ 9 ->   10   11   12
+10 ->
+11 ->   12
+12 ->
+---
+FILE: GRAPHS/SWtinyDAG.txt
+SORT: TopoSortV1
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000014	       0.000008	             92	             30	            107
+RESULT: Topological Sorting - Vertex indices:
+2 0 1 3 5 8 7 6 4 9 10 11 12 
+--------
+FILE: GRAPHS/SWtinyDAG.txt
+SORT: TopoSortV2
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000003	       0.000002	            183	             58	            119
+RESULT: Topological Sorting - Vertex indices:
+2 0 1 3 5 8 7 6 4 9 10 11 12 
+--------
+FILE: GRAPHS/SWtinyDAG.txt
+SORT: TopoSortV3
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000003	       0.000002	             28	             45	             41
+RESULT: Topological Sorting - Vertex indices:
+2 8 0 3 7 1 5 6 4 9 10 11 12 
+--------
+
+---
+Digraph
+Max Out-Degree = 3
+Vertices = 15 | Edges = 25
+---
+FILE: GRAFOS_ORIENTADOS/DAG_4.txt
+SORT: TopoSortV1
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000021	       0.000012	            121	             34	            146
+RESULT: Topological Sorting - Vertex indices:
+0 2 1 6 5 4 3 14 13 12 11 10 9 8 7 
+--------
+FILE: GRAFOS_ORIENTADOS/DAG_4.txt
+SORT: TopoSortV2
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000004	       0.000002	            241	             74	            160
+RESULT: Topological Sorting - Vertex indices:
+0 2 1 6 5 4 3 14 13 12 11 10 9 8 7 
+--------
+FILE: GRAFOS_ORIENTADOS/DAG_4.txt
+SORT: TopoSortV3
+#          time	        caltime	    MemoryReads	   MemoryWrites	     Iterations
+       0.000004	       0.000002	             40	             59	             55
+RESULT: Topological Sorting - Vertex indices:
+0 2 1 6 5 14 4 13 3 12 11 10 9 8 7 
+--------
